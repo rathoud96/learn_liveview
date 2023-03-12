@@ -8,8 +8,7 @@ config :learn_liveview, LearnLiveviewWeb.Endpoint,
   server: false
 
 # In test we don't send emails.
-config :learn_liveview, LearnLiveview.Mailer,
-  adapter: Swoosh.Adapters.Test
+config :learn_liveview, LearnLiveview.Mailer, adapter: Swoosh.Adapters.Test
 
 # Print only warnings and errors during test
 config :logger, level: :warn
